@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    tools:context=".MainActivity">
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Tên"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:id="@+id/edt_name"
+        >
+    </EditText>
+    <EditText
+        android:id="@+id/edt_number"
+        android:hint="Số điện thoại"
+        android:layout_marginBottom="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+    <TextView
+        android:layout_marginBottom="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Giới tính"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        >
+
+    </TextView>
+    <RadioGroup
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:checked="true"
+            android:id="@+id/rbtn_male"
+            android:text="Nam"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </RadioButton>
+        <RadioButton
+            android:id="@+id/rbtn_fenale"
+            android:text="Nữ"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </RadioButton>
+    </RadioGroup>
+
+    <Button
+        android:onClick="addContact"
+        android:id="@+id/btn_add_contact"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:background="@android:color/holo_blue_light"
+        android:padding="8dp"
+        android:text="THÊM" />
+    <ListView
+        android:id="@+id/lv_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ListView>
+
+
+
+
+</LinearLayout>

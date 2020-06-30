@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/baithi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="BÀI THI"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/cau1"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="Câu 1: Nước biển có màu gì?"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp" />
+    <RadioGroup
+        android:id="@+id/RG1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/RB11"
+            android:layout_weight="1"
+            android:text="A. Đỏ"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+        <RadioButton
+            android:id="@+id/RB12"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="B. Xanh"/>
+        <RadioButton
+            android:id="@+id/RB13"
+            android:text="C. Tím"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+
+        <RadioButton
+            android:id="@+id/RB14"
+            android:text="D. Vàng"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+    </RadioGroup>
+    <TextView
+        android:id="@+id/cau2"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="Câu 2: Nước Viêt Nam có hình gì?"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp" />
+    <RadioGroup
+        android:id="@+id/RG2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/RB21"
+            android:layout_weight="1"
+            android:text="A. Chữ K"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+        <RadioButton
+            android:id="@+id/RB22"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="B. Chữ H"/>
+        <RadioButton
+            android:id="@+id/RB23"
+            android:text="C. Chữ S"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+        <RadioButton
+            android:id="@+id/RB24"
+            android:text="D. Chữ R"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+    </RadioGroup>
+    <TextView
+        android:id="@+id/cau3"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="15dp"
+        android:text="Câu 3: Hôm nay lớp C17 học phòng nào?"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp" />
+    <RadioGroup
+        android:id="@+id/RG3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/RB31"
+            android:layout_weight="1"
+            android:text="A. E101"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+        <RadioButton
+            android:id="@+id/RB32"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="B. K102"/>
+        <RadioButton
+            android:id="@+id/RB33"
+            android:text="C. N101"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+        <RadioButton
+            android:id="@+id/RB34"
+            android:text="D. B204"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+    </RadioGroup>
+    <TextView
+        android:id="@+id/cau4"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="15dp"
+        android:text="Câu 4: Đông Hòa thuộc tỉnh nào?"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp" />
+    <RadioGroup
+        android:id="@+id/RG4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/RB41"
+            android:layout_weight="1"
+            android:text="A. Phú Yên"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+        <RadioButton
+            android:id="@+id/RB42"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="B. Bình Định"/>
+
+        <RadioButton
+            android:text="C. TP.HCM"
+            android:id="@+id/RB43"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+
+        <RadioButton
+            android:text="D. Hà Nội"
+            android:id="@+id/RB44"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+    </RadioGroup>
+    <TextView
+        android:id="@+id/cau5"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="Câu 5: Năm 2020 là năm con gì?"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp" />
+    <RadioGroup
+        android:id="@+id/RG5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/RB51"
+            android:layout_weight="1"
+            android:text="A. Chuột"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+        <RadioButton
+            android:id="@+id/RB52"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="B. Mèo"/>
+
+        <RadioButton
+            android:id="@+id/RB53"
+            android:text="C. Trâu"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+
+        <RadioButton
+            android:id="@+id/RB54"
+            android:text="D. Gà"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/RGXL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp">
+        <Button
+            android:id="@+id/kq"
+            android:onClick="ketqua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Kết quả"/>
+        <Button
+            android:onClick="lamlai"
+            android:id="@+id/ll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Làm lại"/>
+    </RadioGroup>
+</LinearLayout>

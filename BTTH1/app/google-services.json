@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1088116869092",
+    "firebase_url": "https://fcmtutorial-16390.firebaseio.com",
+    "project_id": "fcmtutorial-16390",
+    "storage_bucket": "fcmtutorial-16390.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1088116869092:android:1d4d905903b251749929f1",
+        "android_client_info": {
+          "package_name": "com.example.btth1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1088116869092-0b47jhq1479o00p3juoptfje153na2pk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDshjF9PeNVjLN3RwRUyXKDUTr3hdRjHTA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1088116869092-0b47jhq1479o00p3juoptfje153na2pk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
